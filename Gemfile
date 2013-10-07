@@ -47,3 +47,7 @@ end
 group :production do
   gem 'pg'
 end
+
+gem 'execjs'
+gem 'therubyracer'
+gem 'rb-readline', '~> 0.4.2'
